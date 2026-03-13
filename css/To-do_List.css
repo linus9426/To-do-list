@@ -1,0 +1,149 @@
+body{
+    font-family: 'Roboto', sans-serif;
+     background: linear-gradient(185deg, #576bc4, #ae94a1);
+     background-attachment: fixed;
+     padding: 20px;
+
+  /* Center everything inside body */
+  display: flex;
+  justify-content: center; /* horizontal center */
+
+}
+
+p{
+    font-weight: bold;
+    color: #38457f;
+}
+
+
+.todo-section {
+  background-color: white;
+
+  border-radius:10px;
+  padding:30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+  flex:1 1 400px;
+  max-width:450px;
+}
+
+
+.todo-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:30px;
+  max-width:1000px;
+  width:100%;
+}
+
+.todo-grid, .todo-input-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 70px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.todo-input-grid{
+    margin-bottom:10px;
+    align-items: stretch;
+}
+
+.name-input, .due-date-input {
+    background-color: rgb(224, 221, 221);
+    font-size:15px;
+    padding: 6px;
+    border-radius: 4px;
+    border:none;
+}
+
+.add-todo-button{
+    background-color:#398e44;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.add-todo-button:hover {
+    background-color: #115b2f; /* a darker green for hover */
+}
+
+.delete-todo-button{
+    background-color: #a82828;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.delete-todo-button:hover {
+    background-color: #6e1919; /* a darker red for hover */
+}
+
+.ciao, .ciao2{
+    padding-left: 7px;
+}
+
+    .add-todo-button,
+.delete-todo-button{
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+    @media (max-width: 900px){
+
+  .todo-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .todo-section{
+    width:100%;
+  }
+
+}
+
+@media (max-width: 500px){
+
+  body{
+    margin: 0;
+  }
+
+  
+
+  .todo-container{
+    display: block;   /* remove flex centering */
+    width: 100%;      /* fill body padding */
+  }
+
+  .todo-section {
+    width: 100%;      /* full width inside container */
+    max-width: none;
+    margin: 0 0 20px 0; /* vertical spacing only */
+  }
+
+  .todo-input-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .todo-grid{
+    grid-template-columns: 1fr;
+  }
+
+  * {
+  box-sizing: border-box;
+}
+}
+
+
+
