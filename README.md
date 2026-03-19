@@ -1,4 +1,4 @@
-**Todo List Web App**
+**To do List Web App**
 
 A simple To do List web application built with HTML, CSS, and JavaScript that allows you to manage tasks and save them locally using LocalStorage. Visit the app at:
 
