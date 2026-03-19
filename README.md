@@ -2,7 +2,7 @@
 
 A simple Todo List web application built with HTML, CSS, and JavaScript that allows you to manage tasks and save them locally using LocalStorage. Visit the app at:
 
-https://linus9426.github.io/To-do-List/
+https://linus9426.github.io/To-do-list/
 
 **Features**
 
