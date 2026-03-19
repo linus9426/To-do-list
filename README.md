@@ -4,6 +4,8 @@ A simple To do List web application built with HTML, CSS, and JavaScript that al
 
 [To do list](https://linus9426.github.io/To-do-list/)
 
+---
+
 **Features**
 
 * General and Job Tasks: Separate sections for general personal tasks and job-related tasks.
@@ -16,6 +18,8 @@ A simple To do List web application built with HTML, CSS, and JavaScript that al
 
 * Dynamic UI: Tasks are displayed in a grid layout and updated in real-time when added.
 
+---
+
 **Usage**
 
 1. Enter a task name and due date in the input fields.
@@ -23,6 +27,8 @@ A simple To do List web application built with HTML, CSS, and JavaScript that al
 2. Click the Add button to add the task to the respective section.
 
 3. Your tasks will be saved automatically and persist even if you refresh the page.
+
+---
 
 **Technologies Used**
 
@@ -33,6 +39,8 @@ A simple To do List web application built with HTML, CSS, and JavaScript that al
 * JavaScript (ES6 Modules) – Adding tasks, handling events, and LocalStorage management
 
 * LocalStorage – Persistent storage for tasks
+
+---
 
 **License**
 
