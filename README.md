@@ -33,7 +33,3 @@ https://linus9426.github.io/To-do-list/
 * JavaScript (ES6 Modules) – Adding tasks, handling events, and LocalStorage management
 
 * LocalStorage – Persistent storage for tasks
-
-**Preview**
-
-You can see tasks grouped under General Tasks and Job Tasks, with the ability to track due dates.
